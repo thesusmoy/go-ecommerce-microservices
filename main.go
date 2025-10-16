@@ -1,15 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/gofiber/fiber/v2"
+	"go-ecommerce-microservices/internal/api"
 )
-
 func main() {
-	fmt.Println("Hello, World!")
-	
-	app := fiber.New()
+	api.StartServer()
 
-	app.Listen("localhost:9000")
 }

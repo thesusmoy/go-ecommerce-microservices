@@ -1,4 +1,4 @@
-module github.com/thesusmoy/go-ecommerce-microservices
+module go-ecommerce-microservices
 
 go 1.23.0
 
